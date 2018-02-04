@@ -1,4 +1,4 @@
-### Merkle Tree
+## Merkle Tree
 Merkle Tree is a tree in which every leaf node contains the hash of a data block and every non leaf node contains
 a hash value which has been formed by combining the hashes of its children nodes.Typically, Merkle trees have a                 branching factor of 2, meaning that each node has up to 2 children.The root of the tree is called Merkle Root.
               
