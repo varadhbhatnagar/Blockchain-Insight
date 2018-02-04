@@ -10,4 +10,7 @@
 
 
 
-## Objective : *visualizing bitcoin blockchain and discussing how exactly bitcoin uses blockchain"  
+## Objective :
+*visualizing bitcoin blockchain and discussing how exactly bitcoin uses blockchain*
+
+
