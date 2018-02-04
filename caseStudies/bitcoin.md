@@ -35,6 +35,24 @@ The utility of Merkle trees are as follows:
 #### Use 
 Currently, their main uses are in peer-to-peer networks such as Tor, Bitcoin, and Git.
 
+#### PseudoCode
+```
+d1 = dhash(a)
+d2 = dhash(b)
+d3 = dhash(c)
+d4 = dhash(c)            // a, b, c are 3. that's an odd number, so we take the c twice
+
+d5 = dhash(d1 concat d2)
+d6 = dhash(d3 concat d4)
+
+d7 = dhash(d5 concat d6)
+```
+where
+```
+dhash(a) = sha256(sha256(a))
+```
+Note: markle tress generally uses sha256 for hashes and also RIPEMD-160 for smaller desired address like bitcoin address.
+
 #### Complexity
 ![Complexity Image](data/complexity.png)
 
