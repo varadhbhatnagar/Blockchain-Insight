@@ -19,13 +19,13 @@ The utility of Merkle trees are as follows:
 Currently, their main uses are in peer-to-peer networks such as Tor, Bitcoin, and Git.
 
 #### Complexity
-![Complexity Image](complexity.png)
+![Complexity Image](data/complexity.png)
 
-![Merkle Tree Image](mroot.png)
+![Merkle Tree Image](data/mroot.png)
 
-![Block0 Image](block0.png)
+![Block0 Image](data/block0.png)
 
-![Block1 Image](block1.png)
+![Block1 Image](data/block1.png)
 
 #### Video References:
 https://www.youtube.com/watch?v=VkWiTvPnTcY
