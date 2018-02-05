@@ -15,6 +15,11 @@
 *visualizing bitcoin blockchain and discussing how exactly bitcoin uses blockchain*
 
 ## Glossary :
+### Bitcoin : 
+Bitcoin is a digital currency (also called crypto-currency) that is not backed by any country's central bank or government. Bitcoins can be traded for goods or services with vendors who accept Bitcoins as payment.
+
+#### Bitcoin Transactions:
+Bitcoin-to-Bitcoin transactions are made by digitally exchanging anonymous, heavily encrypted hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. Each user's Bitcoins are stored in a program called a digital wallet, which also holds each address the user sends and receives Bitcoins from, as well as a private key known only to the user. 
 
 ### Block
 Blocks are files where data pertaining to the Bitcoin network is permanently recorded. A block records some or all of the most recent Bitcoin transactions that have not yet entered any prior blocks. Thus a block is like a page of a ledger or record book. Each time a block is ‘completed’, it gives way to the next block in the blockchain. A block is thus a permanent store of records which, once written, cannot be altered or removed.
