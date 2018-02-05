@@ -16,6 +16,16 @@
 
 ## Glossary :
 
+### Block
+Blocks are files where data pertaining to the Bitcoin network is permanently recorded. A block records some or all of the most recent Bitcoin transactions that have not yet entered any prior blocks. Thus a block is like a page of a ledger or record book. Each time a block is ‘completed’, it gives way to the next block in the blockchain. A block is thus a permanent store of records which, once written, cannot be altered or removed.
+
+#### Genesis Block
+A genesis block is the first block of a block chain. Modern versions of Bitcoin number it as block 0, though very early versions counted it as block 1. The genesis block is almost always hardcoded into the software of the applications that utilize its block chain. It is a special case in that it does not reference a previous block, and for Bitcoin and almost all of its derivatives, it produces an unspendable subsidy.
+
+
+
+
+
 ### Merkle Tree
 Merkle Tree is a tree in which every leaf node contains the hash of a data block and every non leaf node contains
 a hash value which has been formed by combining the hashes of its children nodes.Typically, Merkle trees have a                 branching factor of 2, meaning that each node has up to 2 children.The root of the tree is called Merkle Root.
@@ -70,3 +80,5 @@ https://www.youtube.com/watch?v=gUwXCt1qkBU
 
 #### Documents: 
 https://brilliant.org/wiki/merkle-tree/
+Block (Bitcoin Block) https://www.investopedia.com/terms/b/block-bitcoin-block.asp
+
