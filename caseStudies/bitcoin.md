@@ -7,6 +7,7 @@
 |[blockexplorer](https://blockchain.info/)|
 |[private testnet](https://github.com/freewil/bitcoin-testnet-box)|
 |[bitcoind](https://en.bitcoin.it/wiki/Bitcoind)|
+|[developer doc](https://bitcoin.org/en/developer-documentation)|
 
 
 
