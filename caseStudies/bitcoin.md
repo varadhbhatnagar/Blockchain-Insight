@@ -80,5 +80,9 @@ https://www.youtube.com/watch?v=gUwXCt1qkBU
 
 #### Documents: 
 https://brilliant.org/wiki/merkle-tree/
+
 Block (Bitcoin Block) https://www.investopedia.com/terms/b/block-bitcoin-block.asp
+
+https://bitcoin.org/en/developer-guide
+
 
