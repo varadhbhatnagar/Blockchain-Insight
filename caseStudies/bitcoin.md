@@ -26,11 +26,12 @@ Blocks are files where data pertaining to the Bitcoin network is permanently rec
 
 #### Contents of a Block
 ##### Block # : 
-Block Number
+It is a number which behaves like a counter. Every new block mined is given a Block # which is one greater than its previous block. The Block # starts from 0.Also called depth of a block in the Bitcoin Blockchain.
+
 ##### BlockHash :
 
 ##### Number of Transactions: 
-
+ 
 ##### Height:
 
 ##### Block Reward:
