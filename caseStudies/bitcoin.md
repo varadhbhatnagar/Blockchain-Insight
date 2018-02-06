@@ -40,14 +40,24 @@ Blocks are files where data pertaining to the Bitcoin network is permanently rec
 #### Contents of a Block 
 ##### Block # : 
 It is a number which behaves like a counter. Every new block mined is given a Block # which is one greater than its previous block. The Block # starts from 0.Also called depth of a block in the Bitcoin Blockchain.
+count of current no of blocks can be seen [here](https://blockexplorer.com/api/status?q=getBlockCount "Count of blocks") 
 
-##### BlockHash :
+##### Block Structure :
+| Field               | Description                                  | Size                                    |
+| --------------------|:--------------------------------------------:| ---------------------------------------:|
+| Magic no	          | value always 0xD9B4BEF9                      |	4 bytes                                |
+| Blocksize	          | number of bytes following up to end of block |	4 bytes                                |
+| Blockheader         |	consists of 6 items                          |	80 bytes                               |
+| Transaction counter |	positive integer VI = VarInt                 |	1 - 9 bytes                            |
+| Transactions        |	the (non empty) list of transactions         |	many transactions                      |
 
 ##### Number of Transactions: 
  
 ##### Height:
 
 ##### Block Reward:
+Every block also contains a record of which Bitcoin addresses or scripts are entitled to receive the reward. This record is known as a generation transaction, or a coinbase transaction, and is always the first transaction appearing in every block. The number of Bitcoins generated per block starts at 50 and is halved every 210,000 blocks.
+Bitcoin transactions are broadcast to the network by the sender, and all peers trying to solve blocks collect the transaction records and add them to the block they are working to solve. Miners get incentive to include transactions in their blocks because of attached transaction fees.
 
 ##### Timestamp:
 
@@ -58,10 +68,13 @@ It is a number which behaves like a counter. Every new block mined is given a Bl
 ##### Previous Block:
 
 ##### Difficulty:
+The difficulty of the mathematical problem is automatically adjusted by the network, such that it targets a goal of solving an average of 6 blocks per hour. Every 2016 blocks (solved in about two weeks), all Bitcoin clients compare the actual number created with this goal and modify the target by the percentage that it varied. The network comes to a consensus and automatically increases (or decreases) the difficulty of generating blocks.
 
 ##### Bits:
 
 ##### Size(bytes):
+Currently size of bitcoin is 1 MB , this is what founder of bitcoins secretly commited. Although many attempts were made to increase the size of blocks to 7MB,10MB etc to increase the speed of transraction.
+Many 'Altcoins' have also been created by forking bitcoin and increasing size block's size and other minor changes. 
 
 ##### Version:
 
