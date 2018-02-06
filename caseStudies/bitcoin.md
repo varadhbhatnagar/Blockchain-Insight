@@ -63,8 +63,15 @@ Every block also contains a record of which Bitcoin addresses or scripts are ent
 Bitcoin transactions are broadcast to the network by the sender, and all peers trying to solve blocks collect the transaction records and add them to the block they are working to solve. Miners get incentive to include transactions in their blocks because of attached transaction fees.
 
 ##### Timestamp:
+A node adds its own timestamp as soon as it receives a new block from the network. So, it can be said that the timestamp is a rough indicator of when the block was formed by the miner.
+It is possible that the timestamp of a newer block is older that the timestamp of the older block.
+
+From bitcoin.it/wiki/Block_timestamp:
+
+>A timestamp is accepted as valid if it is greater than the median timestamp of previous 11 blocks, and less than the network-adjusted >time + 2 hours.
 
 ##### Mined by:
+Name of the miner or the mining pool which mined the block. Blocks do not need to contain any identifying factors. The miner can choose to provide a script in the coinbase of a new block that can be used to identify the source of the block, however they are not required to do so. Hence, some blocks have empty 'Mined By' field.
 
 ##### Merkle Root:
 
