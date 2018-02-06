@@ -52,7 +52,10 @@ count of current no of blocks can be seen [here](https://blockexplorer.com/api/s
 | Transactions        |	the (non empty) list of transactions         |	many transactions                      |
 
 ##### Number of Transactions: 
- 
+The absolute limit is the size of the block, which is currently hard-coded at 1,000,000 bytes. Each transaction takes up a variable amount of space, but ~250 bytes is about right for a simple transaction.
+
+However as soon as a block is solved it is not possible to extend the block by adding in more transactions, as the proof of work has to be redone, so broadcasting it immediately is the only sensible thing to do. So the number of transactions in a block is actually a function of the number of transactions being generated over a time period and the time taken to solve a given block.
+
 ##### Height:
 
 ##### Block Reward:
