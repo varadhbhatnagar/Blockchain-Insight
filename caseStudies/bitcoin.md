@@ -40,7 +40,7 @@ Blocks are files where data pertaining to the Bitcoin network is permanently rec
 #### Contents of a Block 
 ##### Block # : 
 It is a number which behaves like a counter. Every new block mined is given a Block # which is one greater than its previous block. The Block # starts from 0.Also called depth of a block in the Bitcoin Blockchain.
-count of current no of blocks can be seen [here](https://blockexplorer.com/api/status?q=getBlockCount "Count of blocks") 
+Count of current number of blocks can be seen [here](https://blockexplorer.com/api/status?q=getBlockCount "Count of blocks").
 
 ##### Block Structure :
 | Field               | Description                                  | Size                                    |
@@ -75,7 +75,7 @@ From bitcoin.it/wiki/Block_timestamp:
 Name of the miner or the mining pool which mined the block. Blocks do not need to contain any identifying factors. The miner can choose to provide a script in the coinbase of a new block that can be used to identify the source of the block, however they are not required to do so. Hence, some blocks have empty 'Mined By' field.
 
 ##### Merkle Root:
-It is the hash of the root node of the particular block's Merkle Tree. For more information see [Merkle Tree](#Merkle-Tree).
+It is the hash of the root node of the particular block's Merkle Tree. For more information see [Merkle Tree](#merkletree).
 
 ##### Previous Block:
 
