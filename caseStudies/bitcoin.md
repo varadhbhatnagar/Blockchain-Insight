@@ -75,6 +75,7 @@ The difficulty of the mathematical problem is automatically adjusted by the netw
 ##### Size(bytes):
 Currently size of bitcoin is 1 MB , this is what founder of bitcoins secretly commited. Although many attempts were made to increase the size of blocks to 7MB,10MB etc to increase the speed of transraction.
 Many 'Altcoins' have also been created by forking bitcoin and increasing size block's size and other minor changes. 
+![alt text](https://raw.githubusercontent.com/varadhbhatnagar/Blockchain-Beginning/bitcoinCaseStudy/caseStudies/data/blockdata.JPG)
 
 ##### Version:
 
@@ -162,5 +163,8 @@ https://brilliant.org/wiki/merkle-tree/
 Block (Bitcoin Block) https://www.investopedia.com/terms/b/block-bitcoin-block.asp
 
 https://bitcoin.org/en/developer-guide
+https://coindesk.com
+https://tradeblock.com
+
 
 
