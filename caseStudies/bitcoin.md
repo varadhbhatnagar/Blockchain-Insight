@@ -57,6 +57,7 @@ The absolute limit is the size of the block, which is currently hard-coded at 1,
 However as soon as a block is solved it is not possible to extend the block by adding in more transactions, as the proof of work has to be redone, so broadcasting it immediately is the only sensible thing to do. So the number of transactions in a block is actually a function of the number of transactions being generated over a time period and the time taken to solve a given block.
 
 ##### Height:
+The number of blocks preceding a particular block on a block chain. For example, the genesis block has a height of zero because zero block preceded it.
 
 ##### Block Reward:
 Every block also contains a record of which Bitcoin addresses or scripts are entitled to receive the reward. This record is known as a generation transaction, or a coinbase transaction, and is always the first transaction appearing in every block. The number of Bitcoins generated per block starts at 50 and is halved every 210,000 blocks.
@@ -74,6 +75,7 @@ From bitcoin.it/wiki/Block_timestamp:
 Name of the miner or the mining pool which mined the block. Blocks do not need to contain any identifying factors. The miner can choose to provide a script in the coinbase of a new block that can be used to identify the source of the block, however they are not required to do so. Hence, some blocks have empty 'Mined By' field.
 
 ##### Merkle Root:
+It is the hash of the root node of the particular block's Merkle Tree. For more information see [Merkle Tree](#Merkle-Tree).
 
 ##### Previous Block:
 
