@@ -163,7 +163,9 @@ https://brilliant.org/wiki/merkle-tree/
 Block (Bitcoin Block) https://www.investopedia.com/terms/b/block-bitcoin-block.asp
 
 https://bitcoin.org/en/developer-guide
+
 https://coindesk.com
+
 https://tradeblock.com
 
 
