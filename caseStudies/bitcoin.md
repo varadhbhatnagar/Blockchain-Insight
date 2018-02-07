@@ -82,6 +82,7 @@ Name of the miner or the mining pool which mined the block. Blocks do not need t
 It is the hash of the root node of the particular block's Merkle Tree. For more information see [Merkle Tree](#merkletree).
 
 ##### Previous Block:
+The block preceeding the current block is known as the previous block. Each block is guaranteed to come after the previous block chronologically because the previous block's hash would otherwise not be known. Because a block can only reference one previous block, it is impossible for two forked chains to merge.
 
 ##### Difficulty:
 The difficulty of the mathematical problem is automatically adjusted by the network, such that it targets a goal of solving an average of 6 blocks per hour. Every 2016 blocks (solved in about two weeks), all Bitcoin clients compare the actual number created with this goal and modify the target by the percentage that it varied. The network comes to a consensus and automatically increases (or decreases) the difficulty of generating blocks.
@@ -94,10 +95,18 @@ Many 'Altcoins' have also been created by forking bitcoin and increasing size bl
 ![alt text](https://raw.githubusercontent.com/varadhbhatnagar/Blockchain-Beginning/bitcoinCaseStudy/caseStudies/data/blockdata.JPG)
 
 ##### Version:
+The version number is a parameter to help in updating how blocks are treated by the network. As newer rules and regulations concerning blocks come into play, the block version gets updated.
+
+![Version-History](data/versiontrend.png)
 
 ##### Nonce:
+The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros. The rest of the fields may not be changed, as they have a defined meaning .Any change to the block data (such as the nonce) will make the block hash completely different. Since it is infeasible to predict which combination of bits will result in the right hash, many different nonce values are tried, and the hash is recomputed for each value until a hash containing the required number of zero bits is found just like Brute Force technique.
 
 ##### Transactions:
+A transaction is a transfer of Bitcoin value that is broadcast to the network and collected into blocks. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
+
+![Txn](data/txnformat.png)
+
 #### Genesis Block   
 A genesis block is the first block of a block chain. Modern versions of Bitcoin number it as block 0, though very early versions counted it as block 1. The genesis block is almost always hardcoded into the software of the applications that utilize its block chain. It is a special case in that it does not reference a previous block, and for Bitcoin and almost all of its derivatives, it produces an unspendable subsidy.
 
@@ -183,6 +192,8 @@ https://bitcoin.org/en/developer-guide
 https://coindesk.com
 
 https://tradeblock.com
+
+https://en.bitcoin.it/wiki
 
 
 
