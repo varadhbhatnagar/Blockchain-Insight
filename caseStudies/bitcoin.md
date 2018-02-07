@@ -28,14 +28,14 @@
 
 <a name="btc"></a>
 ### Bitcoin : 
-Bitcoin is a digital currency (also called crypto-currency) that is not backed by any country's central bank or government. Bitcoins can be traded for goods or services with vendors who accept Bitcoins as payment.
+Bitcoin is a digital currency (also called crypto-currency) ~~that is not backed by any country's central bank or government.~~ ( rather qoute paper or wiki). Bitcoin ~~can be traded for goods or services with vendors who accept Bitcoins as payment.~~ is a currency.( which you already stated
 
 #### Bitcoin Transactions:
-Bitcoin-to-Bitcoin transactions are made by digitally exchanging anonymous, heavily encrypted hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. Each user's Bitcoins are stored in a program called a digital wallet, which also holds each address the user sends and receives Bitcoins from, as well as a private key known only to the user. 
+~~Bitcoin-to-Bitcoin transactions~~ are made by digitally ~~exchanging~~ ~~anonymous~~, heavily ~~encrypted~~ hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. ~~~Each user's Bitcoins are stored in a program called a digital wallet~~, which also holds each address the user sends and receives Bitcoins from, ~~as well as a private key~~ known only to the user. 
 
 <a name="block"></a>
 ### Block   
-Blocks are files where data pertaining to the Bitcoin network is permanently recorded. A block records some or all of the most recent Bitcoin transactions that have not yet entered any prior blocks. Thus a block is like a page of a ledger or record book. Each time a block is ‘completed’, it gives way to the next block in the blockchain. A block is thus a permanent store of records which, once written, cannot be altered or removed.
+Blocks are files where ~~data pertaining to the Bitcoin network~~ is permanently recorded. A block records some or all of the most recent Bitcoin transactions that have not yet entered any prior blocks. Thus a block is like a page of a ledger or record book. Each time a block is ‘completed’, it gives way to the next block in the blockchain. A block is thus a permanent store of records which, once written, cannot be altered or removed. 
 
 #### Contents of a Block 
 ##### Block # : 
@@ -54,7 +54,7 @@ Count of current number of blocks can be seen [here](https://blockexplorer.com/a
 ##### Number of Transactions: 
 The absolute limit is the size of the block, which is currently hard-coded at 1,000,000 bytes. Each transaction takes up a variable amount of space, but ~250 bytes is about right for a simple transaction.
 
-However as soon as a block is solved it is not possible to extend the block by adding in more transactions, as the proof of work has to be redone, so broadcasting it immediately is the only sensible thing to do. So the number of transactions in a block is actually a function of the number of transactions being generated over a time period and the time taken to solve a given block.
+However as soon as a block is ~~solved~~ it is not possible to extend the block by adding in more transactions, as the proof of work has to be redone, so broadcasting it immediately is the only sensible thing to do. So the number of transactions in a block is actually a function of the number of transactions being generated over a time period and the time taken to solve a given block.
 
 ##### Height:
 The number of blocks preceding a particular block on a block chain. For example, the genesis block has a height of zero because zero block preceded it.
@@ -64,7 +64,7 @@ Every block also contains a record of which Bitcoin addresses or scripts are ent
 Bitcoin transactions are broadcast to the network by the sender, and all peers trying to solve blocks collect the transaction records and add them to the block they are working to solve. Miners get incentive to include transactions in their blocks because of attached transaction fees.
 
 ##### Timestamp:
-A node adds its own timestamp as soon as it receives a new block from the network. So, it can be said that the timestamp is a rough indicator of when the block was formed by the miner.
+~~A node adds its own timestamp as soon as it receives a new block from the network~~. So, it can be said that the timestamp is a rough indicator of when the block was formed by the miner.
 It is possible that the timestamp of a newer block is older that the timestamp of the older block.
 
 From bitcoin.it/wiki/Block_timestamp:
@@ -85,7 +85,7 @@ The difficulty of the mathematical problem is automatically adjusted by the netw
 ##### Bits:
 
 ##### Size(bytes):
-Currently size of bitcoin is 1 MB , this is what founder of bitcoins secretly commited. Although many attempts were made to increase the size of blocks to 7MB,10MB etc to increase the speed of transraction.
+~~Currently size of bitcoin is 1 MB ~~, this is what founder of bitcoins secretly commited. Although many attempts were made to increase the size of blocks to 7MB,10MB etc to increase the speed of transraction.
 Many 'Altcoins' have also been created by forking bitcoin and increasing size block's size and other minor changes. 
 ![alt text](https://raw.githubusercontent.com/varadhbhatnagar/Blockchain-Beginning/bitcoinCaseStudy/caseStudies/data/blockdata.JPG)
 
