@@ -97,7 +97,7 @@ Many 'Altcoins' have also been created by forking bitcoin and increasing size bl
 ##### Version:
 The version number is a parameter to help in updating how blocks are treated by the network. As newer rules and regulations concerning blocks come into play, the block version gets updated.
 
-![Version-History](data/versiontrend.png)
+![Version-History](data/versiontrend.PNG)
 
 ##### Nonce:
 The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros. The rest of the fields may not be changed, as they have a defined meaning .Any change to the block data (such as the nonce) will make the block hash completely different. Since it is infeasible to predict which combination of bits will result in the right hash, many different nonce values are tried, and the hash is recomputed for each value until a hash containing the required number of zero bits is found just like Brute Force technique.
@@ -105,7 +105,7 @@ The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so 
 ##### Transactions:
 A transaction is a transfer of Bitcoin value that is broadcast to the network and collected into blocks. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
 
-![Txn](data/txnformat.png)
+![Txn](data/txnformat.PNG)
 
 #### Genesis Block   
 A genesis block is the first block of a block chain. Modern versions of Bitcoin number it as block 0, though very early versions counted it as block 1. The genesis block is almost always hardcoded into the software of the applications that utilize its block chain. It is a special case in that it does not reference a previous block, and for Bitcoin and almost all of its derivatives, it produces an unspendable subsidy.
