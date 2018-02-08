@@ -35,7 +35,7 @@ According to Wikipedia:
 >>Bitcoin is a cryptocurrency and worldwide payment system.[9]:3 It is the first decentralized digital currency, as the system works >>without a central bank or single administrator.[9]:1[10] The network is peer-to-peer and transactions take place between users >>directly, without an intermediary.[9]:4 These transactions are verified by network nodes through the use of cryptography and recorded >>in a public distributed ledger called a blockchain
 
 #### Bitcoin Transactions:
-Bitcoin transactions are made by digitally ~~exchanging~~ ~~anonymous~~, heavily ~~encrypted~~ hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. ~~~Each user's Bitcoins are stored in a program called a digital wallet~~, which also holds each address the user sends and receives Bitcoins from, ~~as well as a private key~~ known only to the user. 
+Bitcoin transactions are made by digitally ~~exchanging~~ ~~anonymous~~, heavily ~~encrypted~~ hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. ~~~Each user's Bitcoins are stored in a program called a digital wallet~~, which also holds each address the user sends and receives Bitcoins from, as well as a private key known only to the user. 
 
 <a name="block"></a>
 ### Block   
