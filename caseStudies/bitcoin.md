@@ -33,10 +33,7 @@ Bitcoin is a digital currency (also called crypto-currency).
 
 According to Wikipedia: 
 
->>Bitcoin is a cryptocurrency and worldwide payment system.[9]:3 It is the first decentralized digital currency, as the system works >>without a central bank or single administrator.[9]:1[10] The network is peer-to-peer and transactions take place between users >>directly, without an intermediary.[9]:4 These transactions are verified by network nodes through the use of cryptography and recorded >>in a public distributed ledger called a blockchain
-
-#### Bitcoin Transactions:
-Bitcoin transactions are made by digitally ~~exchanging~~ ~~anonymous~~, heavily ~~encrypted~~ hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. ~~~Each user's Bitcoins are stored in a program called a digital wallet~~, which also holds each address the user sends and receives Bitcoins from, as well as a private key known only to the user. 
+>Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency, as the system works without a >central bank or single administrator. The network is peer-to-peer and transactions take place between users directly, without an >intermediary. These transactions are verified by network nodes through the use of cryptography and recorded in a public distributed >ledger called a blockchain
 
 <a name="block"></a>
 ### Block   
@@ -107,6 +104,14 @@ The "nonce" in a bitcoin block is a 32-bit (4-byte) field whose value is set so 
 A transaction is a transfer of Bitcoin value that is broadcast to the network and collected into blocks. Transactions are not encrypted, so it is possible to browse and view every transaction ever collected into a block. Once transactions are buried under enough confirmations they can be considered irreversible.
 
 ![Txn](data/txnformat.PNG)
+
+This is a typical transaction having two inputs and two outputs. The two inputs on the left side are the unspent bitcoins of the given address which are being spent in this transaction. These two inputs have addresses and signatures associated with them which help in authenticating them.
+
+The two output addresses on the right are ones to which the bitcoins from the input are sent to. Each of these addresses have a public key which is used to authenicate them. If case of change being generated in a transaction, the change amount is sent back to the sender which can be seen as there is a common address on input and output side of the transaction.
+
+Note that BTC(Input1) + BTC(Input2) + Txn Fee = BTC(Output1) + BTC(Output 2).
+
+
 
 #### Genesis Block   
 A genesis block is the first block of a block chain. Modern versions of Bitcoin number it as block 0, though very early versions counted it as block 1. The genesis block is almost always hardcoded into the software of the applications that utilize its block chain. It is a special case in that it does not reference a previous block, and for Bitcoin and almost all of its derivatives, it produces an unspendable subsidy.
