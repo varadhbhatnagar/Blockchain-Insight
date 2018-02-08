@@ -17,6 +17,7 @@
    3. [Merkle Tree](#merkletree)
    4. [Proof of Work](#pow)
    5. [Target](#target)
+   6. [Wallet](#wallet)
 3. [Mathematical Functions Used](#Mathematical-Functions-Used)
 4. [References](#references)
 
@@ -185,6 +186,30 @@ For reasons of stability and low latency in transactions, the network tries to p
 
 [Elliptic Curve Digital Signal Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
 [Mathematical Trap Door](https://en.wikipedia.org/wiki/Trapdoor_function)
+
+### Wallet
+A Bitcoin wallet is a collection of private keys but may also refer to client software used to manage those keys and to make transactions on the Bitcoin network.
+According to investopedia:
+> A Bitcoin wallet is a software program where Bitcoins are stored. To be technically accurate, Bitcoins are not stored anywhere; there is a private key (secret number) for every Bitcoin address that is saved in the Bitcoin wallet of the person who owns the balance. Bitcoin wallets facilitate sending and receiving Bitcoins and gives ownership of the Bitcoin balance to the user.  The Bitcoin wallet comes in many forms; desktop, mobile, web and hardware are the four main types of wallets.
+
+You can think of a wallet as your personal interface to the Bitcoin network, similar to how your online bank account is an interface to the regular monetary system.
+currently wallets is of 4 types 
+1. Mobile wallets (easy to make quick payments and portable)
+2. Web wallets (easy to make quick payments)
+3. Desktop Wallets (offline software wallet to add security)
+4. Hardware wallets (offline wallet to add security)
+
+#### Hardware Wallets
+Hardware wallets are most secured way to save your private keys, These devices can hold private keys electronically and facilitate payments after verifications.
+hardware wallets are still limited in numbers, some of them are:-
+
+ * [TREZOR](http://amzn.to/2nTyYwk)
+ 
+ * [Ledger Nano S](http://amzn.to/2FUlkAn)
+ 
+ * [keepkey](http://amzn.to/2FYnMpC)
+
+
 
 <a name="references"></a>
 ## References    
