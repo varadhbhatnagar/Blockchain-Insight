@@ -194,6 +194,8 @@ https://www.youtube.com/watch?v=VkWiTvPnTcY
 
 https://www.youtube.com/watch?v=gUwXCt1qkBU
 
+https://www.youtube.com/watch?v=Lx9zgZCMqXE
+
 ### Documents: 
 https://brilliant.org/wiki/merkle-tree/
 
