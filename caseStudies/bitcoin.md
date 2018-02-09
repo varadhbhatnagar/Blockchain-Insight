@@ -112,8 +112,6 @@ The two output addresses on the right are ones to which the bitcoins from the in
 
 Note that BTC(Input1) + BTC(Input2) + Txn Fee = BTC(Output1) + BTC(Output 2).
 
-
-
 #### Genesis Block   
 A genesis block is the first block of a block chain. Modern versions of Bitcoin number it as block 0, though very early versions counted it as block 1. The genesis block is almost always hardcoded into the software of the applications that utilize its block chain. It is a special case in that it does not reference a previous block, and for Bitcoin and almost all of its derivatives, it produces an unspendable subsidy.
 
@@ -198,6 +196,15 @@ currently wallets is of 4 types
 2. Web wallets (easy to make quick payments)
 3. Desktop Wallets (offline software wallet to add security)
 4. Hardware wallets (offline wallet to add security)
+
+#### Desktop Wallets
+Desktop wallets are installed on a desktop computer and provide the user with complete control over the wallet. Desktop wallets enable the user to create a Bitcoin address for sending and receiving the Bitcoins. They also allow the user to store a private key. A few known desktop wallets are Bitcoin Core, MultiBit, Armory, Hive OS X, Electrum, etc.
+
+#### Mobile Wallets
+Mobile wallets overcome the handicap of desktop wallets, as the latter are fixed in one place. Once you run the app on your smartphone, the wallet can carry out the same functions as a desktop wallet, and help you pay directly from your mobile from anywhere. Thus a mobile wallet facilitates in making payments in physical stores by using "touch-to-pay" via NFC scanning a QR code. Bitcoin Wallet, Hive Android and Mycelium Bitcoin Wallet are few of the mobile wallets. 
+
+#### Web Wallets
+As for web wallets, they allow you to use Bitcoins from anywhere, on any browser or mobile. The selection of your web wallet must be done carefully since it stores your private keys online. Coinbase and Blockchain are popular web wallet providers.
 
 #### Hardware Wallets
 Hardware wallets are most secured way to save your private keys, These devices can hold private keys electronically and facilitate payments after verifications.
