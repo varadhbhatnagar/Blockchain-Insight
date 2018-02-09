@@ -19,6 +19,7 @@
    4. [Proof of Work](#pow)
    5. [Target](#target)
    6. [Wallet](#wallet)
+   7. [Script](#script)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
 5. [References](#references)
 
@@ -199,13 +200,6 @@ The target is a 256-bit number that all Bitcoin clients share. The SHA-256 hash 
 
 For reasons of stability and low latency in transactions, the network tries to produce one block every 10 minutes. Every 2016 blocks (which should take two weeks if this goal is kept perfectly), every Bitcoin client compares the actual time it took to generate these blocks with the two week goal and modifies the target by the percentage difference. This makes the proof-of-work problem more or less difficult. A single retarget never changes the target by more than a factor of 4 either way to prevent large changes in difficulty.
 
-<a name="Mathematical-Functions-Used"></a>
-### Mathematical Functions Used:
-
-[Elliptic Curve Digital Signal Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
-
-[Mathematical Trap Door](https://en.wikipedia.org/wiki/Trapdoor_function)
-
 ### Wallet
 A Bitcoin wallet is a collection of private keys but may also refer to client software used to manage those keys and to make transactions on the Bitcoin network.
 According to investopedia:
@@ -237,7 +231,14 @@ hardware wallets are still limited in numbers, some of them are:-
  
  * [keepkey](http://amzn.to/2FYnMpC)
 
+### Script
 
+<a name="Mathematical-Functions-Used"></a>
+## Mathematical Functions Used:
+
+[Elliptic Curve Digital Signal Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
+
+[Mathematical Trap Door](https://en.wikipedia.org/wiki/Trapdoor_function)
 
 <a name="references"></a>
 ## References    
