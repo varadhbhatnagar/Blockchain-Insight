@@ -248,7 +248,7 @@ hardware wallets are still limited in numbers, some of them are:-
  
  * [keepkey](http://amzn.to/2FYnMpC)
 
-### Script
+
 
 <a name="Mathematical-Functions-Used"></a>
 ## Mathematical Functions Used:
