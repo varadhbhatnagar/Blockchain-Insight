@@ -11,19 +11,39 @@
 
 # Table of contents
 1. [Objective](#Objective)
-2. [Glossary](#Glossary)
+2. [Types of Blockchains](#Types)
+3. [Glossary](#Glossary)
    1. [Bitcoin](#btc)
    2. [Block](#block)
    3. [Merkle Tree](#merkletree)
    4. [Proof of Work](#pow)
    5. [Target](#target)
    6. [Wallet](#wallet)
-3. [Mathematical Functions Used](#Mathematical-Functions-Used)
-4. [References](#references)
+4. [Mathematical Functions Used](#Mathematical-Functions-Used)
+5. [References](#references)
 
 <a name="Objective"></a>
 ## Objective : 
 *visualizing bitcoin blockchain and discussing how exactly bitcoin uses blockchain*
+
+<a name="Types"></a>
+## Types of Blockchains:
+There are basically three types of Block chains:
+1. Public Blockchains
+2. Permissioned Blockchains
+3. Private Blockchains
+
+The terms public, permissioned, and private refer to who has the ability to be a user of, or run a node on the Blockchain. Each type of Blockchain places a different level of importance on anonymity, immutability, efficiency, and transparency.
+
+### Public Blockchain
+On a public Blockchain anyone can be a user or run a node. Public Blockchains such as Bitcoin value anonymity, immutability, and transparency over efficiency.
+
+### Permissioned Blockchain
+Permissioned Blockchains are operated by known entities such as stakeholders of a given industry. They value immutability and efficiency over anonymity and transparency. The Financial industry would use such a Blockchain to reduce the time of international payments from days to seconds.
+
+### Private Blockchain
+Private Blockchains are operated by one entity. These Blockchains value efficiency over anonymity, immutability and transparency. Their use cases are limited.
+
 
 <a name="Glossary"></a>
 ## Glossary : 
@@ -183,6 +203,7 @@ For reasons of stability and low latency in transactions, the network tries to p
 ### Mathematical Functions Used:
 
 [Elliptic Curve Digital Signal Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
+
 [Mathematical Trap Door](https://en.wikipedia.org/wiki/Trapdoor_function)
 
 ### Wallet
@@ -240,6 +261,8 @@ https://coindesk.com
 https://tradeblock.com
 
 https://en.bitcoin.it/wiki
+
+https://medium.com/@BrettNoyes/public-permissioned-and-private-blockchains-3c32965e33c9
 
 
 
