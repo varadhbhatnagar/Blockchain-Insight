@@ -189,6 +189,23 @@ Note: markle tress generally uses sha256 for hashes and also RIPEMD-160 for smal
 ![Block1 Image](data/block1.png)
 
 <a name="pow"></a>
+
+### Script
+A script is essentially a list of instructions recorded with each transaction that describe how the next person wanting to spend the Bitcoins being transferred can gain access to them. The script for a typical Bitcoin transfer to destination Bitcoin address D simply encumbers future spending of the bitcoins with two things: the spender must provide
+
+1. a public key that, when hashed, yields destination address D embedded in the script, and 
+2. a signature to prove ownership of the private key corresponding to the public key just provided.
+
+Scripting provides the flexibility to change the parameters of what's needed to spend transferred Bitcoins. For example, the scripting system could be used to require two private keys, or a combination of several keys, or even no keys at all.
+
+This is the most commonly used transaction output script. It's used to pay to a bitcoin address (a bitcoin address is a public key hash encoded in base58check)
+```
+// create a new p2pkh paying to a specific address
+var address = Address.fromString('1NaTVwXDDUJaXDQajoa9MqHhz4uTxtgK14');
+var script = Script.buildPublicKeyHashOut(address);
+assert(script.toString() === 'OP_DUP OP_HASH160 20 0xecae7d092947b7ee4998e254aa48900d26d2ce1d OP_EQUALVERIFY OP_CHECKSIG');
+```
+
 ### Proof of Work:   
 A proof of work is a piece of data which is difficult (costly, time-consuming) to produce but easy for others to verify and which satisfies certain requirements. Producing a proof of work can be a random process with low probability so that a lot of trial and error is required on average before a valid proof of work is generated.
 
