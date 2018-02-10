@@ -20,6 +20,7 @@
    5. [Target](#target)
    6. [Wallet](#wallet)
    7. [Script](#script)
+   8. [Bitcoin Network](#bitcoinnetwork)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
 5. [References](#references)
 
@@ -247,6 +248,21 @@ hardware wallets are still limited in numbers, some of them are:-
  * [Ledger Nano S](http://amzn.to/2FUlkAn)
  
  * [keepkey](http://amzn.to/2FYnMpC)
+
+<a name="bitcoinnetwork"></a>
+### P2P Network
+The Bitcoin network protocol allows full nodes (peers) to collaboratively maintain a peer-to-peer network for block and transaction exchange. Full nodes download and verify every block and transaction prior to relaying them to other nodes. Archival nodes are full nodes which store the entire blockchain and can serve historical blocks to other nodes. Pruned nodes are full nodes which do not store the entire blockchain.
+
+Before a full node can validate unconfirmed transactions and recently-mined blocks, it must download and validate all blocks from block 1 (the block after the hardcoded genesis block) to the current tip of the best block chain. This is the Initial Block Download (IBD) or initial sync.
+
+Bitcoin Core uses the IBD method any time the last block on its local best block chain has a block header time more than 24 hours in the past. Bitcoin Core 0.10.0 will also perform IBD if its local best block chain is more than 144 blocks lower than its local best header chain (that is, the local block chain is more than about 24 hours in the past).
+
+When a miner discovers a new block, it broadcasts the new block to its peers using one of the following methods:
+1. Unsolicited Block Push
+2. Standard Block Relay
+3. Direct Headers Announcement
+
+read more about Block Broadcasting [here](https://bitcoin.org/en/developer-guide#block-broadcasting "Blocks Broadcasting")
 
 
 
