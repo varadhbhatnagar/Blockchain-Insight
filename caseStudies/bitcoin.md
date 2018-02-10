@@ -20,7 +20,7 @@
    5. [Target](#target)
    6. [Wallet](#wallet)
    7. [Script](#script)
-   8. [Bitcoin Network](#bitcoinnetwork)
+   8. [P2P Network](#bitcoinnetwork)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
 5. [References](#references)
 
