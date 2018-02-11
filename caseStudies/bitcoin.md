@@ -166,7 +166,7 @@ The utility of Merkle trees are as follows:
 Currently, their main uses are in peer-to-peer networks such as Tor, Bitcoin, and Git.
 
 #### PseudoCode
-```
+```python
 d1 = dhash(a)
 d2 = dhash(b)
 d3 = dhash(c)
@@ -178,7 +178,7 @@ d6 = dhash(d3 concat d4)
 d7 = dhash(d5 concat d6)
 ```
 where
-```
+```python
 dhash(a) = sha256(sha256(a))
 ```
 Note: markle tress generally uses sha256 for hashes and also RIPEMD-160 for smaller desired address like bitcoin address.
@@ -203,7 +203,7 @@ A script is essentially a list of instructions recorded with each transaction th
 Scripting provides the flexibility to change the parameters of what's needed to spend transferred Bitcoins. For example, the scripting system could be used to require two private keys, or a combination of several keys, or even no keys at all.
 
 This is the most commonly used transaction output script. It's used to pay to a bitcoin address (a bitcoin address is a public key hash encoded in base58check)
-```
+```javascript
 // create a new p2pkh paying to a specific address
 var address = Address.fromString('1NaTVwXDDUJaXDQajoa9MqHhz4uTxtgK14');
 var script = Script.buildPublicKeyHashOut(address);
@@ -297,6 +297,7 @@ This would be done through hard fork.i.e everybody would have to upgrade to Bitc
 #### Bitcoin Core:
 1. Code behind segregated witness is too complex and not elegant.
 2. Bitcoin core is too centralized and these type of people are trying to take control. (Company called block stream has engrained into Bitcoin core).
+
 3.Scaling is slow and Transaction Fee is rising because there is limited space for transactions. Thus, Bitcoin Core is losing users and becoming becoming less usable.
 4. There has been some censorship of ideas of alternative scaling solutions.
 
@@ -306,6 +307,25 @@ This would be done through hard fork.i.e everybody would have to upgrade to Bitc
 3. Miners advocating BTC unlimited because lightning networks would cut down fee of transaction.
 4. Closed source bug patch have been released and if code is not available Open Source, people would stop trusting Bitcoin.
 5. Bitcoin unlimited would attack BTC Core chain and two currencies would be there simultaneously.
+
+### Bitcoind
+Bitcoin wiki states that
+>bitcoind is a program that implements the Bitcoin protocol for remote procedure call (RPC) use. It is also the second Bitcoin client in the network's history. It is available under the MIT license in 32-bit and 64-bit versions for Windows, GNU/Linux-based OSes, and Mac OS X.
+
+Bitcoind is a headless daemon, and also bundles a testing tool for the same daemon. It provides a JSON-RPC interface, allowing it to be controlled locally or remotely which makes it useful for integration with other software or in larger payment systems. Various commands are made available by the API.
+
+To use locally, first start the program in daemon mode:
+
+`bitcoind -daemon`
+
+Then you can execute API commands, e.g.:
+
+`bitcoin-cli getinfo`
+`bitcoin-cli listtransactions`
+
+To stop the bitcoin daemon, execute:
+
+`bitcoin-cli stop`
 
 <a name="references"></a>
 ## References    
