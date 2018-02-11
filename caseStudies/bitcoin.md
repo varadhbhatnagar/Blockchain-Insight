@@ -16,13 +16,14 @@
    1. [Bitcoin](#btc)
    2. [Block](#block)
    3. [Merkle Tree](#merkletree)
-   4. [Proof of Work](#pow)
-   5. [Target](#target)
-   6. [Wallet](#wallet)
-   7. [Script](#script)
+   4. [Script](#script)
+   5. [Proof of Work](#pow)
+   6. [Target](#target)
+   7. [Wallet](#wallet)
    8. [P2P Network](#p2pnetwork)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
-5. [References](#references)
+5. [Bitcoine Core vs Bitcoine Unlimited[(#btc-btcu)
+6. [References](#references)
 
 <a name="Objective"></a>
 ## Objective : 
@@ -274,6 +275,37 @@ read more about Block Broadcasting [here](https://bitcoin.org/en/developer-guide
 [Elliptic Curve Digital Signal Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm)
 
 [Mathematical Trap Door](https://en.wikipedia.org/wiki/Trapdoor_function)
+
+<a name="btc-btcu"></a>
+## Bitcoin Core vs Bitcoin Unlimited
+Hard fork - It is a change in the main rules that govern Bitcoin. Anybody who does not upgrade to the new version will be left behind.It is not Backward Compatible.
+
+Soft fork - Added rules to Bitcoin which do not change the current rules, allowing people to upgrade to a new version while the old version still works.It is Backward Compatible.
+
+### Bitcoin Core -
+It is the current implementation of Bitcoin.A solution of to scale up from Bitcoin Core is first to add Segregated Witness which fixes transaction malleability (which is a bug in Bitcoin). This would double the number of transactions which are done in each block.
+This also opens up the possibility of lightning network i.e. massive scaling on top of Bitcoin to the level of Mastercard and Visa.
+Segregated witness is done using soft work i.e. some poeple would not be able to take advantage of the added features that are available.
+
+
+### BTC Unlimited- 
+This implmentation of Bitcoin would change the Block size limit so that miners can decide how large blocks they would like to mine.
+The number of transactions would be dynamic and would (hopefully) grow at a reasonable rate to not overload limits of current computing power.
+This would be done through hard fork.i.e everybody would have to upgrade to Bitcoin Unlimited.
+
+### Concerns:
+#### Bitcoin Core:
+1. Code behind segregated witness is too complex and not elegant.
+2. Bitcoin core is too centralized and these type of people are trying to take control. (Company called block stream has engrained into Bitcoin core).
+3.Scaling is slow and Transaction Fee is rising because there is limited space for transactions. Thus, Bitcoin Core is losing users and becoming becoming less usable.
+4. There has been some censorship of ideas of alternative scaling solutions.
+
+#### Bitcoin Unlimted:
+1. Code behind this is unsafe, two recent bugs have had bad effects.
+2. Just raising Block size is temporary solution and still it is not quick enough to scale to Visa or Master card network.
+3. Miners advocating BTC unlimited because lightning networks would cut down fee of transaction.
+4. Closed source bug patch have been released and if code is not available Open Source, people would stop trusting Bitcoin.
+5. Bitcoin unlimited would attack BTC Core chain and two currencies would be there simultaneously.
 
 <a name="references"></a>
 ## References    
