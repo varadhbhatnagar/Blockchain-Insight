@@ -23,6 +23,7 @@
    8. [P2P Network](#p2pnetwork)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
 5. [Bitcoine Core vs Bitcoine Unlimited](#btc-btcu)
+6. [Bitcoind](#bitcoind)
 6. [References](#references)
 
 <a name="Objective"></a>
