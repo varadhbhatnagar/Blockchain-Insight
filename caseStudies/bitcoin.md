@@ -317,6 +317,8 @@ https://www.youtube.com/watch?v=gUwXCt1qkBU
 
 https://www.youtube.com/watch?v=Lx9zgZCMqXE
 
+https://www.youtube.com/watch?v=RmGEuriu1u8
+
 ### Documents: 
 https://brilliant.org/wiki/merkle-tree/
 
@@ -331,6 +333,8 @@ https://tradeblock.com
 https://en.bitcoin.it/wiki
 
 https://medium.com/@BrettNoyes/public-permissioned-and-private-blockchains-3c32965e33c9
+
+https://www.cryptocompare.com/coins/guides/what-is-the-block-size-limit/
 
 
 
