@@ -111,8 +111,10 @@ The difficulty of the mathematical problem is automatically adjusted by the netw
 ##### Bits:
 
 ##### Size(bytes):
-~~Currently size of bitcoin is 1 MB ~~, this is what founder of bitcoins secretly commited. Although many attempts were made to increase the size of blocks to 7MB,10MB etc to increase the speed of transraction.
-Many 'Altcoins' have also been created by forking bitcoin and increasing size block's size and other minor changes. 
+There was no limit on the size of Bitcoin originally but a limit of 1 MB was set later because of problem of Denial of Service Attack.
+Denial of Service attack is basically huge blocks of transactions which are not possible to process with current technology.
+The Bitcoin community is divided on this issue as some of them say that the block size must be increased in order to make Bitcoin competitive with other currency mediums such as Paypal while others argue that it must be kept constant so that there is less difficulty in mining the block.
+
 ![alt text](https://raw.githubusercontent.com/varadhbhatnagar/Blockchain-Beginning/bitcoinCaseStudy/caseStudies/data/blockdata.JPG)
 
 ##### Version:
