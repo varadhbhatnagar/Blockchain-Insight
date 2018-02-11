@@ -20,7 +20,7 @@
    5. [Target](#target)
    6. [Wallet](#wallet)
    7. [Script](#script)
-   8. [P2P Network](#bitcoinnetwork)
+   8. [P2P Network](#p2pnetwork)
 4. [Mathematical Functions Used](#Mathematical-Functions-Used)
 5. [References](#references)
 
@@ -249,7 +249,7 @@ hardware wallets are still limited in numbers, some of them are:-
  
  * [keepkey](http://amzn.to/2FYnMpC)
 
-<a name="bitcoinnetwork"></a>
+<a name="p2pnetwork"></a>
 ### P2P Network
 The Bitcoin network protocol allows full nodes (peers) to collaboratively maintain a peer-to-peer network for block and transaction exchange. Full nodes download and verify every block and transaction prior to relaying them to other nodes. Archival nodes are full nodes which store the entire blockchain and can serve historical blocks to other nodes. Pruned nodes are full nodes which do not store the entire blockchain.
 
